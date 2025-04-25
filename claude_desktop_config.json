@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "PaymentsNZ": {
+      "command": "node",
+      "args": ["[YOUR-PATH-HERE]/paymentsnz-mcp-server/mcp-server/dist/index.js"],
+      "env": {
+        "ACCOUNT_AND_TRANSACTION_API_SPECIFICATION_LIB_ACCESS_TOKEN": "[YOUR-ACCESS-TOKEN-HERE]"
+      }
+    }
+  }
+}
